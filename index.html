@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaquery.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__top-nav">
+            <div class="header__contact">
+                <div class="header__contact-email">
+                    <i class="fas fa-envelope"></i>
+                    restaurant@gmail.com
+                </div>
+                <div class="header__contact-phone">
+                    <i class="fas fa-phone"></i>
+                    0123456789
+                </div>
+            </div>
+            <div class="header__language">
+                <span>English</span><i class="fas fa-chevron-down"></i>
+                <div class="header__language--select">
+                    <ul class="header__language-list">
+                        <li class="header__language-item">
+                            French
+                        </li>
+                        <li class="header__language-item">
+                            Vietnamese
+                        </li>
+                        <li class="header__language-item">
+                            Japanese
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <button class="bars">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <a href="index.html" class="logo">Restaurant</a>
+            </div>
+            <div class="navbar__link">
+                <ul class="navbar__link-list">
+                    <li class="navbar__link-item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="navbar__link-item">
+                        <a href="#menu">Menus</a>
+                    </li>
+                    <li class="navbar__link-item">
+                        <a href="#story">About Us</a>
+                    </li>
+                    <li class="navbar__link-item">
+                        <a href="#caree">Carees</a>
+                    </li>
+                    <li class="navbar__link-item">
+                        <a href="#booking">Bookings</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="signin-up">
+                    <a class="btn">Join </a>
+                    <a class="btn">Sign In</a>
+                    <div>
+                        <i class="fas fa-user"></i>
+                    </div>
+            </div>
+        </nav>
+    </header>
+    <section class="sidebar">
+        <button class=" close-btn sidebar__close-btn">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-list">
+            <li class="sidebar-item">
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#">
+                    Menus
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#">
+                    About
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#">
+                    Carees
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="#">
+                    Booking
+                </a>
+            </li>
+            <li class="sidebar-item language--select">
+                Select Language
+                <i class="fas fa-chevron-right"></i>
+                <i class="fas fa-chevron-down"></i>
+                <ul class="language__submenu-list">
+                    <li class="language__submenu-item">
+                        French
+                    </li>
+                    <li class="language__submenu-item">
+                        English
+                    </li>
+                    <li class="language__submenu-item">
+                        Vietnamese
+                    </li>
+                    <li class="language__submenu-item">
+                        Japanese
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="sidebar__contact">
+            <div class="sidebar__contact-email">
+                <i class="fas fa-envelope"></i>
+                restaurant@gmail.com
+            </div>
+            <div class="sidebar__contact-phone">
+                <i class="fas fa-phone"></i>
+                0123456789
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <h2 class="">
+            Enjoy your healthy delicious food
+        </h2>
+        <h1>Treat Yourself</h1>
+        <a href="#" class="btn btn--border btn--uppercase">Order Now</a>
+    </section>
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="title">Our Menu</h2>
+            <h4 class="saying">
+                We service breakfast, lunch, dinner and cocktails for you with healthy food and happy attitude
+            </h4>
+        </div>
+        <div class="menu-list">
+            <div class="menu-item">
+                <img src="./img/breakfast.jpg" alt="" class="menu-item__image">
+                <div class="menu-item__desc">
+                    <h4>Breakfast</h4>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="./img/lunch.jpg" alt="" class="menu-item__image">
+                <div class="menu-item__desc">
+                    <h4>Lunch</h4>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="./img/dinner.jpg" alt="" class="menu-item__image">
+                <div class="menu-item__desc">
+                    <h4>Dinner</h4>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="./img/cocktails.jpg" alt="" class="menu-item__image">
+                <div class="menu-item__desc">
+                    <h4>Cocktails</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="information" id="booking">
+        <div class="information__content">
+           <div class="book">
+            <h3>
+                Make a Booking
+            </h3>
+            <a class="btn btn--border btn--uppercase btn--black">
+                Book Now
+            </a>
+           </div>
+           <div class="time">
+            <h3>
+                opening time
+            </h3>
+                <span>monday: 10am - 11pm</span>
+                <span>tuesday - saturday: 7am - 11pm</span>
+                <span>sunday: whole day</span>
+           </div>
+           
+           <div class="contact" id="contact">
+                <h3>Contact</h3>
+                <span>96 ISABELLA ST, LONDON SE1 8DD</span>
+                <span style="text-transform: lowercase;">restaurant@gmail.com</span>
+                <span>Tel: 0123456789</span>
+                <a class="btn btn--border btn--uppercase btn--black">Email</a>
+           </div>
+        </div>
+    </section>
+    <section class="story" id="story">
+        <div class="container">
+            <h2 class="title">Our Story</h2>
+            <h4 class="saying">
+                Let's take a look at ourstory and history
+            </h4>
+        </div>
+        <div class="container-story">
+            <div class="story__pagination">
+                    <span class="story__pagination-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </span> 
+
+                    <span id="0" onclick="yearClick()" class="story__pagination-year ">1970s</span>
+                    <span id="1" onclick="yearClick()" class="story__pagination-year">1980s</span>
+                    <span id="2" onclick="yearClick()" class="story__pagination-year active">1990s</span>
+                    <span id="3" onclick="yearClick()" class="story__pagination-year">2000s</span>
+                    <span id="4" onclick="yearClick()" class="story__pagination-year">2020s</span>  
+                  
+                    <span class="story__pagination-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </span>
+            </div>
+            <div class="story__content">
+                <div class="story__slider">
+                    <img 
+                    src="./img/1970s.jpg" alt="" class="story__image">
+                    <img 
+                        src="./img/1980s.jpg" alt="" class="story__image">
+                    <img 
+                        src="./img/1990s.jpg" alt="" class="story__image active">
+                    <img 
+                        src="./img/2000s.jpg" alt="" class="story__image">
+                    <img 
+                        src="./img/2020s.jpg" alt="" class="story__image">
+                </div>
+                <div class="story__text">
+                    <div class="story__text-item">
+                        <h3 class="story__text-title">1970s</h3>
+                        <p class="story__text-desc">
+                           a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis natus quo tempore alias tempora dolorem amet aliquam ab ex. Magnam sit quae voluptatem esse inventore repellat eius quia asperiores maxime quibusdam dolores fugiat, soluta corrupti ipsa facere saepe iusto, doloribus animi, minima delectus nobis vitae consectetur nihil! Sequi, totam.
+                        </p>
+                    </div>
+                    <div class="story__text-item">
+                        <h3 class="story__text-title">1980s</h3>
+                        <p class="story__text-desc">
+                           b Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis natus quo tempore alias tempora dolorem amet aliquam ab ex. Magnam sit quae voluptatem esse inventore repellat eius quia asperiores maxime quibusdam dolores fugiat, soluta corrupti ipsa facere saepe iusto, doloribus animi, minima delectus nobis vitae consectetur nihil! Sequi, totam.
+                        </p>
+                    </div>
+                    <div class="story__text-item active">
+                        <h3 class="story__text-title">1990s</h3>
+                        <p class="story__text-desc">
+                           c Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis natus quo tempore alias tempora dolorem amet aliquam ab ex. Magnam sit quae voluptatem esse inventore repellat eius quia asperiores maxime quibusdam dolores fugiat, soluta corrupti ipsa facere saepe iusto, doloribus animi, minima delectus nobis vitae consectetur nihil! Sequi, totam.
+                        </p>
+                    </div>
+                    <div class="story__text-item">
+                        <h3 class="story__text-title">2000s</h3>
+                        <p class="story__text-desc">
+                            dLorem, ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis natus quo tempore alias tempora dolorem amet aliquam ab ex. Magnam sit quae voluptatem esse inventore repellat eius quia asperiores maxime quibusdam dolores fugiat, soluta corrupti ipsa facere saepe iusto, doloribus animi, minima delectus nobis vitae consectetur nihil! Sequi, totam.
+                        </p>
+                    </div>
+                    <div class="story__text-item">
+                        <h3 class="story__text-title">2020s</h3>
+                        <p class="story__text-desc">
+                            hLorem, ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis natus quo tempore alias tempora dolorem amet aliquam ab ex. Magnam sit quae voluptatem esse inventore repellat eius quia asperiores maxime quibusdam dolores fugiat, soluta corrupti ipsa facere saepe iusto, doloribus animi, minima delectus nobis vitae consectetur nihil! Sequi, totam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="social">
+        <div class="container">
+            <h2 class="title">Social Community</h2>
+            <h4 class="saying">Join with us to get lastest information and great deals</h3>
+        </div>
+        <div class="container-social">
+            <div class="container-social__image">
+                <img src="./img/reastaurant-barwebp.webp" alt="">
+            </div>
+                <div class="container-social__content">
+                    <h2>Get Social</h2>
+                    <p>Follow us on Instagram 
+                        <a href="https://www.instagram.com/">@restaurant01</a>
+                        or join the conversation on Twitter 
+                        <a href="https://www.twitter.com">@restaurant01tw</a>
+                    </p>
+                    <div class="container-social__btn-group">
+                        <button class="btn btn--border btn--black">Visit Instagram Page</button>
+                        <button class="btn btn--border btn--black">Join Twitter Conversation</button>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section class="rating">
+        <div class="container">
+            <h2 class="title">Customers Rating</h2>
+            <h4 class="saying">Your rating makes us find out mistakes and improve our service</h4>
+        </div>
+        <div class="rating-container">
+            <div class="rating-item">
+                <div class="rating-item__image">
+                    <img src="./img/user1.webp" alt="">
+                </div>
+                <div class="rating-item__text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, non.</p>
+                    <div class="rating-star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="rating-item">
+                <div class="rating-item__image">
+                    <img src="./img/user2.webp" alt="">
+                </div>
+                <div class="rating-item__text">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, non.</p>
+                    <div class="rating-star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="caree" id="caree">
+        <div class="container">
+            <h2 class="title">Our Carees</h2>
+            <h4 class="saying">For new branch development, we are recruiting for positions:</h4>
+        </div>
+        <div class="caree-container">
+            <div class="caree-content">
+                <h2>Why you should join with us?</h2>
+                <p> Join with us, you will get <br />
+                    <span>good working enveroment</span>,<br />
+                    <span> competition goal</span>,<br />
+                    <span> great bonus</span>,<br />
+                     and improve<span> <br />your teamwork skills.</span>
+                </p>
+                <p>Click on the image to know more.</p>
+            </div>
+            <ul class="caree-list">
+                <ul class="caree-list1">
+                    <li class="caree-item" id="1">
+                        <div class="caree-item__image">
+                            <img src="./img/manager.webp" alt="">
+                        </div>
+                        <div class="caree-item__info">
+                            <h3 class="caree-item__position">
+                                Managers
+                            </h3>
+                        </div>
+                    </li>
+                    <li class="caree-item" id="2">
+                        <div class="caree-item__image">
+                            <img src="./img/security.webp" alt="">
+                        </div>
+                        <div class="caree-item__info">
+                            <h3 class="caree-item__position">
+                                Security 
+                            </h3>
+                        </div>
+                    </li>
+                </ul>
+                <li class="detail-item1">
+                
+                </li>
+                <ul class="caree-list2">
+                    <li class="caree-item" id="3">
+                        <div class="caree-item__image">
+                            <img src="./img/waiter.webp" alt="">
+                        </div>
+                        <div class="caree-item__info">
+                            <h3 class="caree-item__position">
+                                Waiters
+                            </h3>
+                        </div>
+                    </li>
+                    <li class="caree-item" id="4">
+                        <div class="caree-item__image">
+                            <img src="./img/bar-waiter.webp" alt="">
+                        </div>
+                        <div class="caree-item__info">
+                            <h3 class="caree-item__position">
+                                Bar Waiters
+                            </h3>
+                        </div>
+                    </li>
+                </ul>
+                <li class="detail-item2">
+                    
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <div class="back-to-top">
+            <i class="fas fa-chevron-up"></i>
+        <span>Back To Top</span>
+    </div>
+    <footer class="footer">
+        <div class="social-icon">
+            <ul class="social-icon__list">
+                <li class="social-icon__item">
+                    <a href="#" class="fab fa-facebook"></a>
+                </li>
+                <li class="social-icon__item">
+                    <a href="#" class="fab fa-twitter"></a>
+                </li>
+                <li class="social-icon__item">
+                    <a href="#" class="fab fa-instagram"></a>
+                </li>
+                <li class="social-icon__item">
+                    <a href="#" class="fab fa-youtube"></a>
+                </li>
+                <li class="social-icon__item">
+                    <a href="#" class="fab fa-pinterest"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="support">
+            <div>
+                <h5>How can we help you?</h5>
+                <p>Call us, it's toll-free</p>
+            </div>
+            
+                <ul>
+                    <li><a href="#">Global Privacy Statement</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Carees</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="Media"></a></li>
+                </ul>
+            
+            <ul>
+                <li><a href="#">Web Accessibility</a></li>
+                <li><a href="#">Customer Support</a></li>
+               <li><a href="#">Restaurant Gift Card</a></li> 
+            </ul>
+            <ul>
+                <li><a href="#">Cookies Statement</a></li>
+                <li><a href="#">Person Data Requests</a></li>
+                <li><a href="#">Do Not Sell My Personal Information</a></li>
+                <li><a href="#">Site Usage Agreement</a></li>
+                <li><a href="#">AdChoices</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>
+                Restaurant &copy;. All right reversed.
+            </p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

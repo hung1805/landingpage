@@ -1,0 +1,168 @@
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 50%;
+  }
+
+  .header .navbar {
+    padding: 0.5rem 5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .title::after,
+.title::before {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 40%;
+  }
+
+  .story,
+.menu,
+.social,
+.information,
+.caree,
+.rating {
+    margin-top: 10rem;
+  }
+
+  .story__text {
+    padding: 5rem 3rem;
+  }
+
+  .caree-list .detail-item__info {
+    padding-left: 1rem;
+  }
+
+  .banner h1, .banner h2 {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header__top-nav {
+    display: none;
+  }
+  .header .navbar__link {
+    display: none;
+  }
+  .header .navbar__logo .bars {
+    display: block;
+  }
+
+  .logo {
+    font-size: 3.5rem;
+  }
+
+  .social .title::after,
+.social .title::before,
+.rating .title::after,
+.rating .title::before {
+    width: 50%;
+  }
+
+  .rating-container {
+    flex-direction: column;
+  }
+
+  .rating-item {
+    margin-bottom: 4rem;
+  }
+
+  .footer .social-icon {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .caree-container {
+    flex-direction: column;
+  }
+
+  .footer .social-icon {
+    width: 55%;
+  }
+  .footer .support div {
+    padding-left: 2rem;
+  }
+
+  .banner h1 {
+    margin-bottom: 2rem;
+  }
+
+  .header .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .menu-list {
+    grid-template-columns: 1fr;
+    row-gap: 4rem;
+    grid-template-rows: repeat(4, 40rem);
+  }
+
+  .story__pagination-btn {
+    font-size: 3rem;
+  }
+  .story__content {
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  .story__slider {
+    width: 100%;
+    height: 100rem;
+    padding: 5rem 3rem;
+  }
+  .story__text {
+    width: 100%;
+  }
+
+  .rating-container {
+    padding: 0 0 0 2rem;
+  }
+
+  .footer .support ul {
+    padding-left: 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header .navbar {
+    padding: 1rem 0;
+  }
+  .header .navbar__logo .bars {
+    margin-right: 2rem;
+  }
+  .header .navbar .signin-up {
+    margin-right: 1rem;
+  }
+  .header .navbar .signin-up .btn {
+    color: #030464;
+  }
+  .header .navbar .signin-up .btn:first-child::after {
+    background-color: #030464;
+  }
+
+  .banner h1 {
+    margin-bottom: 3rem;
+  }
+  .banner h2 {
+    margin-bottom: 2rem;
+  }
+
+  .footer .social-icon {
+    width: 70%;
+  }
+  .footer .support {
+    flex-direction: column;
+  }
+  .footer .support div {
+    padding-left: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .title::after,
+.title::before {
+    width: 20%;
+  }
+}
+
+/*# sourceMappingURL=mediaquery.css.map */
