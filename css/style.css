@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -28,7 +30,7 @@ ul li {
   margin: 0 auto;
   text-align: center;
   margin-bottom: 5rem;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .logo {
@@ -74,8 +76,10 @@ ul li {
   font-family: "Oswald", sans-serif;
   padding: 0 1.5rem;
   position: relative;
+  overflow: hidden;
 }
-.title::before, .title::after {
+.title::before,
+.title::after {
   position: absolute;
   content: "";
   width: 200%;
@@ -271,7 +275,7 @@ ul li {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  background-color: #6C91F5;
+  background-color: #6c91f5;
 }
 .header .navbar .signin-up div .fa-user {
   color: #fff;
@@ -371,10 +375,12 @@ ul li {
   color: #fff;
   font-family: "Poppins", sans-serif;
 }
-.sidebar__contact-email, .sidebar__contact-phone {
+.sidebar__contact-email,
+.sidebar__contact-phone {
   padding-bottom: 1rem;
 }
-.sidebar__contact-email i, .sidebar__contact-phone i {
+.sidebar__contact-email i,
+.sidebar__contact-phone i {
   margin-right: 0.5rem;
 }
 
@@ -388,7 +394,8 @@ ul li {
   flex-direction: column;
   color: #030464;
   text-align: center;
-  background: center/cover no-repeat url(https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background: center/cover no-repeat
+    url(https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
 }
 .banner h1 {
   font-size: 7rem;
@@ -547,7 +554,7 @@ ul li {
 }
 .social .container-social__content p {
   font-size: 2rem;
-  color: #4689B9;
+  color: #4689b9;
   margin-bottom: 3rem;
 }
 .social .container-social__content p a {
@@ -666,7 +673,10 @@ ul li {
   margin-bottom: 2rem;
   color: #030464;
 }
-.caree-list .detail-item__salary, .caree-list .detail-item__request, .caree-list .detail-item__benifit, .caree-list .detail-item__desc {
+.caree-list .detail-item__salary,
+.caree-list .detail-item__request,
+.caree-list .detail-item__benifit,
+.caree-list .detail-item__desc {
   font-size: 1.5rem;
   font-family: "Cousine", monospace;
   line-height: 2;
@@ -682,7 +692,8 @@ ul li {
   top: 1rem;
   right: 2rem;
 }
-.caree-list1, .caree-list2 {
+.caree-list1,
+.caree-list2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 25rem;
@@ -730,7 +741,7 @@ ul li {
 .footer {
   margin-top: 5rem;
   width: 100%;
-  background: linear-gradient(#0F4B95, #0D3566);
+  background: linear-gradient(#0f4b95, #0d3566);
 }
 .footer .social-icon {
   width: 30%;
@@ -779,7 +790,7 @@ ul li {
   color: red;
 }
 .footer .social-icon__item:last-child {
-  background-color: #BD081C;
+  background-color: #bd081c;
 }
 .footer .social-icon__item:last-child .fab {
   color: #fff;
